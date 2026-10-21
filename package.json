@@ -1,0 +1,19 @@
+{
+  "name": "rspack-mf-bundlerruntime-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "rspack dev"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@module-federation/enhanced": "2.9.2",
+    "@rspack/cli": "2.2.8",
+    "@rspack/core": "2.2.8",
+    "@rspack/dev-server": "2.2.1"
+  }
+}
